@@ -15,7 +15,7 @@ function Projects3() {
   return (
     <Main>
       <Iframe
-        src="https://cranky-almeida-b598ca.netlify.app/projects3"
+        src="https://cranky-almeida-b598ca.netlify.app/"
         title="Project3"
       ></Iframe>
       <TextContainer>
@@ -33,9 +33,9 @@ function Projects3() {
           <A
             target="_blank"
             rel="noreferrer"
-            href="https://cranky-almeida-b598ca.netlify.app/projects3"
+            href="https://cranky-almeida-b598ca.netlify.app/"
           >
-            https://cranky-almeida-b598ca.netlify.app/projects3
+            https://cranky-almeida-b598ca.netlify.app/
           </A>
         </Text2>
         <Text2>
