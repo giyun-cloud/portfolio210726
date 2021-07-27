@@ -14,7 +14,10 @@ import {
 function Projects3() {
   return (
     <Main>
-      <Iframe src="http://localhost:3000/" title="Project3"></Iframe>
+      <Iframe
+        src="https://cranky-almeida-b598ca.netlify.app/projects3"
+        title="Project3"
+      ></Iframe>
       <TextContainer>
         <H1>Portfolio</H1>
         <StackContainer>
@@ -27,8 +30,12 @@ function Projects3() {
         <Text>▶ react-router-dom과 styled-component를 이용해서 만듬.</Text>
         <Text2>
           ● LINK :{" "}
-          <A target="_blank" rel="noreferrer" href="http://localhost:3000/">
-            http://localhost:3000/
+          <A
+            target="_blank"
+            rel="noreferrer"
+            href="https://cranky-almeida-b598ca.netlify.app/projects3"
+          >
+            https://cranky-almeida-b598ca.netlify.app/projects3
           </A>
         </Text2>
         <Text2>
