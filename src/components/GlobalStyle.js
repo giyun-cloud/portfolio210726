@@ -18,6 +18,8 @@ const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
   }
+  @media screen and (max-width: 1080px) { html { font-size: 12px; } }
+  @media screen and (max-width: 680px) { html { font-size: 8px; } }
 `;
 
 export default GlobalStyle;

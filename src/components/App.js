@@ -10,11 +10,13 @@ import AboutMe from "../routes/AboutMe";
 import Projects from "../routes/Projects";
 import Footer from "./Footer";
 import Home from "../routes/Home";
+import Homebtn from "./Homebtn";
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <Homebtn />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/aboutme" component={AboutMe} />
