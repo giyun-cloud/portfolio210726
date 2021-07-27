@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   body{
     background-color: #2d3436;
     color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   a{
     text-decoration: none;

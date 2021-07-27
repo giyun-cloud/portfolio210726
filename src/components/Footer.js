@@ -20,11 +20,13 @@ const Container = styled.div`
       : null};
   border-top: 1px solid
     ${(props) =>
-      props.current.substr(0, 9) === "/projects"
+      props.current === props.children.props.to
         ? props.current === "/aboutme"
           ? "#57606f"
           : "#747d8c"
-        : "#b2bec3"};
+        : props.children.props.to === undefined
+        ? "#747d8c"
+        : null};
   height: 15vh;
   display: flex;
 `;
@@ -44,20 +46,19 @@ const SmallContent = styled(Link)`
   }
   background-color: ${(props) =>
     props.current === props.to ? "#747d8c" : "#2d3436"};
-  /* border-top: background-color: ${(props) =>
-    props.current === props.to ? "#747d8c" : "#2d3436"}; */
+  border-top: 1px solid
+    ${(props) => (props.current === props.to ? "#747d8c" : null)};
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   text-shadow: 0 0 1px #000, 0 0 2px #333;
 `;
 
 function Footer({ location: { pathname } }) {
-  console.log(pathname.substr(0, 9));
   return (
     <SFooter>
       <Container current={pathname}>
