@@ -56,6 +56,7 @@ function AboutMe() {
             깃 허브
           </A>
         </p>
+        <p>▪ 연락처 : 010-9217-3599 / nangiyoon@gmail.com</p>
       </Paragrpahs>
     </Main>
   );
